@@ -31,8 +31,9 @@ def get_compatibility(combination):
     if check_compatibility(p1_blood, p2_blood):
         if last_patient != patient1:
             last_patient = patient1
-            print("\nPatient", patient1, "can donate to:")
-        print(patient2)
+            print ""
+            print "Patient ", patient1, "can donate to:"
+        print patient2
 
 # Gets all combinations without repetition of the given persons
 def get_combinations(persons):
